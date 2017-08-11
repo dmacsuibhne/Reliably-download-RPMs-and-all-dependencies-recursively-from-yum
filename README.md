@@ -1,6 +1,8 @@
 # Reliably-download-RPMs-and-all-dependencies-recursively-from-yum
 
-Use yum to download an rpm and all of its depencies (and their dependencies etc). To easily install you can use 'createrepo --database /path/to/folder/with/rpms' and add this repo to '/etc/yum.conf'
+Uses yum to download an rpm and all of its depencies (and their dependencies etc). To easily install these afterwards you can use 'createrepo --database /path/to/folder/with/rpms' and add this repo to '/etc/yum.conf'
+
+Must be run on the same OS as is needed to install on. Automatically excludes RPMs with 'i686' in the name because it was intended to be used with an x86_64 OS.
 
 
 See also:
