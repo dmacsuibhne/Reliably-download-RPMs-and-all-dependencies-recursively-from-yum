@@ -9,3 +9,5 @@ See also:
 More on creating a repo: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/sec-Yum_Repository.html
 
 More on adding your repo to yum.conf: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/sec-Setting_repository_Options.html
+
+Requires yum-utils to be installed (yum install yum-utils)
